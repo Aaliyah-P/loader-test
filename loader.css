@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mystery+Quest&display=swap');
+
+div {
+  /* Finally, a use for "groove"! */
+  border: 24px  ridge rgb(154, 16, 16);
+
+  display:table-cell;
+  border-radius: 360px;
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg) }
+  to { transform: rotate(360deg) }
+}
+
+
+html, body { height: 100% }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: rgb(154, 16, 16);
+}
+
+.statement{
+position: absolute;
+font-family: "Mystery Quest", system-ui;
+color: antiquewhite;
+}
+
